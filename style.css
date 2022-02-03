@@ -95,7 +95,7 @@ img {
     height: 100px;
   }
 
-  .container:nth-child(){
+  .container:nth-child(odd){
     background-color: #F2F2CC;
   }
   
@@ -107,6 +107,32 @@ img {
   .container{
     width: 100%;
     padding-top: 30px;  
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 90%; 
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
 }
