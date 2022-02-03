@@ -139,3 +139,79 @@ img {
     height: 100px;
   }
 }
+
+@media screen and (min-width: 420px) and (max-width: 800px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container:nth-child(odd){
+    background-color: #F2F2CC;
+  }
+
+
+  #lezioni .row,
+  #steps .row,
+  #why .row {
+    display: flex;
+    flex-wrap: wrap;
+    float: none;
+    justify-content: center;
+    width: 90%; 
+    float: none;
+    gap: 2rem;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: calc(50% - 2rem);
+  margin-top: 30px; 
+  float: none;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central, 
+  #steps .row>.right {
+  margin-top: 30px;
+  width: calc(50% - 2rem);
+  float: none;
+  }
+
+  #why .row>.first,
+  #why .row>.second, 
+  #why .row>.third {
+  width: calc(50% - 2rem);
+  margin-top: 30px; 
+  float: none;
+  }
+
+  .row{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  img{
+    height: 100px;
+  }
+
+  h1{
+    width: 100%;
+  }
+  hr{
+    display: none;
+  }
+}
