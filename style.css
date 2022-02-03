@@ -95,15 +95,18 @@ img {
     height: 100px;
   }
 
-
+  .container.nth-child(odd){
+    background-color: #F2F2CC;
+  }
+  
   .row{
     width: 100%;
     margin-top: 0;
   }
 
   .container{
-    background-color: #F2F2CC;
     width: 100%;
     padding-top: 30px;  
   }
+
 }
