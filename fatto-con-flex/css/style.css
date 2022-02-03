@@ -80,59 +80,19 @@ img {
   }
 
   body{
-    font-size: 1rem;
-  }
-
-  h1{
-    font-size: 2rem; 
-  }
-
-  h3{
-    font-size: 1.3rem;
-  }
-
-  img{
-    height: 100px;
-  }
-
-  .container:nth-child(odd){
-    background-color: #F2F2CC;
-  }
-  
-  .row{
-    width: 100%;
-    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .container{
     width: 100%;
-    padding-top: 30px;  
+    display: flex;
+    justify-content: center;
   }
 
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 90%; 
-    float: none;
-    margin: 0 auto;
-    margin-bottom: 50px;
-  }
-
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-    width: 90%;
-    float: none;
-    margin: 0 auto;
-    margin-bottom: 50px; 
-  }
-
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  .container:nth-child(odd){
+    background-color: #F2F2CC;;
   }
 
 }
