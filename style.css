@@ -95,7 +95,7 @@ img {
     height: 100px;
   }
 
-  .container.nth-child(odd){
+  .container:nth-child(){
     background-color: #F2F2CC;
   }
   
